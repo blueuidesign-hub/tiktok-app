@@ -21,7 +21,8 @@ h1,h2,h3{font-family:"Bricolage Grotesque","Source Sans 3",system-ui,sans-serif;
 /* Dau trang */
 .top{border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:1rem;padding-bottom:1rem;flex-wrap:wrap}
-.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1.25rem;color:var(--ink);text-decoration:none}
+.brand{display:inline-flex;align-items:center;gap:.6rem;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:1.25rem;color:var(--ink);text-decoration:none}
+.brand-icon{width:36px;height:36px;border-radius:8px;display:block}
 .nav{display:flex;gap:1.25rem;flex-wrap:wrap}
 .nav a{text-decoration:none;color:var(--muted);font-size:.975rem}
 .nav a:hover,.nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
